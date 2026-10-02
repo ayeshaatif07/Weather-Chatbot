@@ -1,0 +1,199 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Hello",
+        "Good day",
+        "Whats up"
+      ],
+      "responses": [
+        "Hello! 😊",
+        "Good to see you again! 👋",
+        "Hi there, how can I help? 🙂",
+        "Hey there! 🙌",
+        "Hiya! 👋"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Sad to see you go 😢",
+        "Talk to you later 👋",
+        "Goodbye! 👋",
+        "Come back soon! 😊",
+        "Thank you! 🙏"
+      ]
+    },
+    {
+      "tag": "current_weather",
+      "patterns": [
+        "What's the weather like today?",
+        "How is the weather right now?",
+        "Is it sunny outside?",
+        "Is it raining?",
+        "Tell me the weather"
+      ],
+      "responses": [
+        "In {location}, it depends on your exact area 🌍. Check your weather app for accurate info!",
+        "Looks like it's clear in many places around {location} today! ☀️",
+        "Rain or shine in {location}, I'm here to help! 🌦️",
+        "Check your local forecast in {location} for the most up-to-date weather. 📱"
+      ]
+    },
+    {
+      "tag": "weather_forecast",
+      "patterns": [
+        "What’s the forecast for tomorrow?",
+        "Will it rain this weekend?",
+        "What's the weather like next week?",
+        "Is it going to be cold tomorrow?",
+        "Give me the weekly forecast"
+      ],
+      "responses": [
+        "Check a {location}-based weather service or app for forecasts 📅",
+        "Tomorrow in {location} might bring a change — always good to check ahead! 🔄",
+        "Stay ready for surprise showers or sunny spells in {location}! 🌦️☀️",
+        "Weather in {location} can be unpredictable — double-check before heading out! 📱"
+      ]
+    },
+    {
+      "tag": "temperature_query",
+      "patterns": [
+        "What's the temperature today?",
+        "How hot is it now?",
+        "Is it freezing?",
+        "How cold is it outside?",
+        "What's the temperature range today?"
+      ],
+      "responses": [
+        "In {location}, it depends — check your app 📱",
+        "Temperatures can vary in {location} — dress in layers 🧥🧣",
+        "Stay hydrated if it’s hot 💧 or layered if it’s cold ❄️ in {location}"
+      ]
+    },
+    {
+      "tag": "seasonal_weather",
+      "patterns": [
+        "What’s winter like in Canada?",
+        "How’s summer in Europe?",
+        "Tell me about monsoon season in India",
+        "Describe spring weather",
+        "Is autumn rainy?"
+      ],
+      "responses": [
+        "Winter in {location} is snowy and cold ❄️⛄",
+        "Summer in {location} is warm and lovely ☀️🌻",
+        "Monsoon in {location} brings heavy rain 🌧️ and cooler temps 🌡️",
+        "Spring in {location} brings blooms and mild weather 🌷🌼",
+        "Autumn in {location} is crisp and colorful 🍁, sometimes rainy 🌧️"
+      ]
+    },
+    {
+      "tag": "extreme_weather",
+      "patterns": [
+        "What is a hurricane?",
+        "Tell me about tornadoes",
+        "Is there a thunderstorm today?",
+        "What causes heatwaves?",
+        "How dangerous is a blizzard?"
+      ],
+      "responses": [
+        "Hurricanes are strong tropical storms 🌪️🌊, and they do affect some parts of {location}",
+        "Tornadoes are fast-rotating air columns — very dangerous, especially in storm-prone areas of {location}",
+        "Thunderstorms bring lightning ⚡, thunder 🔊, and sometimes hail 🌨️ in regions like {location}",
+        "Heatwaves are extended periods of intense heat 🔥 — common in {location} during summer",
+        "Blizzards involve heavy snow ❄️, strong winds 🌬️, and low visibility 🌫️ in places like {location}"
+      ]
+    },
+    {
+      "tag": "weather_safety",
+      "patterns": [
+        "How do I stay safe during a storm?",
+        "What to do in a tornado?",
+        "Tips for heatwave safety?",
+        "How to prepare for a blizzard?",
+        "Weather safety tips?"
+      ],
+      "responses": [
+        "In {location}, stay indoors during storms ⛈️ and avoid metal 🏠",
+        "In a tornado-prone area like parts of {location}, find shelter in a basement or safe room 🛑",
+        "Drink water 💧, rest 🛌, and avoid the sun 🌞 during heatwaves in {location}",
+        "Stock food 🥫, stay warm 🔥, and avoid travel 🚫 during blizzards in {location}"
+      ]
+    },
+    {
+      "tag": "climate_vs_weather",
+      "patterns": [
+        "What's the difference between climate and weather?",
+        "Is climate the same as weather?",
+        "Explain weather and climate",
+        "What does climate mean?",
+        "Is global warming weather change?"
+      ],
+      "responses": [
+        "Weather in {location} is short-term 🌤️; climate is long-term 🌍",
+        "Climate in {location} means typical patterns over years 📆",
+        "Weather in {location} changes daily ☁️; climate spans decades 📉📈",
+        "Global warming is a climate trend 🌡️, not a daily weather change in {location}"
+      ]
+    },
+    {
+      "tag": "uv_index",
+      "patterns": [
+        "What is the UV index today?",
+        "Is the sun dangerous today?",
+        "Should I wear sunscreen?",
+        "What does UV index mean?",
+        "Tell me about UV exposure"
+      ],
+      "responses": [
+        "The UV index in {location} tells the level of sun radiation ☀️",
+        "High UV in {location}? Wear sunscreen 🧴 and avoid peak hours 🕶️",
+        "If UV is above 6 in {location}, protect your skin — even if cloudy 🌥️",
+        "Use your weather app for real-time UV updates in {location} 📱"
+      ]
+    },
+    {
+      "tag": "humidity_conditions",
+      "patterns": [
+        "What's the humidity today?",
+        "Is it humid outside?",
+        "Why does it feel so sticky?",
+        "Tell me about humidity",
+        "Is the air dry today?"
+      ],
+      "responses": [
+        "Humidity in {location} is water vapor in the air 💧 — affects how it feels",
+        "High humidity in {location} = feels hotter 🥵; low = feels dry 🌵",
+        "Sticky in {location}? That’s probably high humidity 🌫️",
+        "Check your app for accurate humidity info in {location} 📱"
+      ]
+    },
+    {
+      "tag": "air_quality",
+      "patterns": [
+        "How’s the air quality today?",
+        "Is the pollution bad?",
+        "Should I wear a mask outside?",
+        "Tell me about AQI",
+        "Is it safe to jog outside today?"
+      ],
+      "responses": [
+        "AQI in {location} shows how clean or polluted the air is 🌫️",
+        "Planning to go out in {location}? Check AQI first 🏃‍♂️",
+        "High pollution in {location}? Wear a mask 😷",
+        "Apps like AQICN or your weather app help track air quality in {location} 📱"
+      ]
+    }
+  ]
+}
